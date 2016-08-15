@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Constant uuid="21a8586f-a694-4d74-bf3c-8a1ddf4d5616">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ОсуществляетсяРеализацияТоваровУслугКомитентов" category="Manager">
+				<xr:TypeId>3274a57d-3320-4dda-a7d6-54223a6bfbbc</xr:TypeId>
+				<xr:ValueId>36307788-0146-498a-b93b-7466aaf32530</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ОсуществляетсяРеализацияТоваровУслугКомитентов" category="ValueManager">
+				<xr:TypeId>3abae6b5-d5cb-43fa-8b4f-5df98970e1f2</xr:TypeId>
+				<xr:ValueId>c34973d7-f2cc-40fb-9de2-0e40220796de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОсуществляетсяРеализацияТоваровУслугКомитентов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

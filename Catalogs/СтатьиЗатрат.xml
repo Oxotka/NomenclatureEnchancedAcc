@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="6b891ce6-0163-42de-adad-0b7af8a491fb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиЗатрат" category="Object">
+				<xr:TypeId>94ce70d3-2613-45e7-8fb1-e61a7828e31b</xr:TypeId>
+				<xr:ValueId>6e3dcc26-d161-45ad-9a61-5e7b6874c560</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиЗатрат" category="Ref">
+				<xr:TypeId>5499d5ff-a50b-461d-b92e-35c5282f7691</xr:TypeId>
+				<xr:ValueId>8669587d-9378-4089-b784-ae714d448b7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиЗатрат" category="Selection">
+				<xr:TypeId>b527a632-5d3f-4be9-b786-e2be2295442a</xr:TypeId>
+				<xr:ValueId>89032b0d-4bb9-42e5-b50c-36e7f4b647f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиЗатрат" category="List">
+				<xr:TypeId>c3db40c6-b1b6-4bba-b918-c42331cb2ad9</xr:TypeId>
+				<xr:ValueId>82b34be7-4aff-4f47-a7d2-ee2fd80babd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиЗатрат" category="Manager">
+				<xr:TypeId>518fd0d3-75d0-476c-9db0-25aedcb623a3</xr:TypeId>
+				<xr:ValueId>03f75d11-5d45-4a18-aaa1-154e3e47d708</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиЗатрат</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

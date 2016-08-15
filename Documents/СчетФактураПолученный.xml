@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="43283265-1cf8-4f3d-bcbb-abd03ed1e6e8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураПолученный" category="Object">
+				<xr:TypeId>dddb93c1-45a4-4fb7-857e-5570b74cd752</xr:TypeId>
+				<xr:ValueId>8d9aaecc-fdd2-4bc9-b962-6ce4847b6ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураПолученный" category="Ref">
+				<xr:TypeId>29e825df-a46e-44c3-8d44-16599e4ff2da</xr:TypeId>
+				<xr:ValueId>1ab78463-d511-40a7-a1eb-800912a3268a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураПолученный" category="Selection">
+				<xr:TypeId>d02711a4-ad9c-4634-b92e-0373dad0eaae</xr:TypeId>
+				<xr:ValueId>94c40eba-7093-43b7-ac25-80f11efeff75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураПолученный" category="List">
+				<xr:TypeId>c7f09d32-4768-4ddf-9869-e215bdbd9c8e</xr:TypeId>
+				<xr:ValueId>505be5f0-a6cc-455a-ac19-af5fc49163f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураПолученный" category="Manager">
+				<xr:TypeId>138fa614-9fa6-463e-a90f-d141606b0512</xr:TypeId>
+				<xr:ValueId>a7592fa3-d1f2-4a3f-87e1-9af8dfe2a5fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СчетФактураПолученный</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

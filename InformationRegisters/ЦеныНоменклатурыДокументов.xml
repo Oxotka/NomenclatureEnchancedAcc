@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="3caf4e42-5c82-4472-b77c-db022269024c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЦеныНоменклатурыДокументов" category="Record">
+				<xr:TypeId>09a23c46-4da9-44e8-b431-71e52cea2cb1</xr:TypeId>
+				<xr:ValueId>a73a7486-c0b3-48bc-9f76-14653d08e226</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЦеныНоменклатурыДокументов" category="Manager">
+				<xr:TypeId>0d17ee14-f36f-4457-af0e-9a348d7feb01</xr:TypeId>
+				<xr:ValueId>5c608d67-cec3-4dde-9f0c-e4889d1613f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЦеныНоменклатурыДокументов" category="Selection">
+				<xr:TypeId>2a6d8738-7247-4512-be98-594fa6f79f5a</xr:TypeId>
+				<xr:ValueId>ded4cf41-86a4-49ad-adc1-3b15a8a33148</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЦеныНоменклатурыДокументов" category="List">
+				<xr:TypeId>693da873-d82b-49f0-a065-373889383541</xr:TypeId>
+				<xr:ValueId>4f2af053-ef02-496f-833d-1ea15fffda4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЦеныНоменклатурыДокументов" category="RecordSet">
+				<xr:TypeId>6b2bd862-df80-4bab-b6bd-8041b2834fc5</xr:TypeId>
+				<xr:ValueId>45e3d4cd-5cd8-4820-a969-44b098224491</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЦеныНоменклатурыДокументов" category="RecordKey">
+				<xr:TypeId>496c2642-4717-4905-a241-554b0da1f504</xr:TypeId>
+				<xr:ValueId>345cac90-d4b2-4175-970e-c86e95e6005e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЦеныНоменклатурыДокументов" category="RecordManager">
+				<xr:TypeId>dcd8b685-ef32-4dd0-a7fe-4ce2d72259ea</xr:TypeId>
+				<xr:ValueId>ef9871ee-5234-4b67-b305-4a187ed2a350</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЦеныНоменклатурыДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fba4f3c8-3581-49fa-b4fc-e13a7e9feeea">
+				<Properties>
+					<Name>Цена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="771629ce-da13-4413-9208-48cba60f3bf1">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="fd3e5c65-7b9f-4b89-9c00-7a68693da501">
+				<Properties>
+					<Name>ЦенаВключаетНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fe922e9b-6372-4bef-a6ff-c8b939f38a74">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cf259f63-a0ef-400c-991b-0fe059e5d963">
+				<Properties>
+					<Name>СпособЗаполненияЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыЗаполненияЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

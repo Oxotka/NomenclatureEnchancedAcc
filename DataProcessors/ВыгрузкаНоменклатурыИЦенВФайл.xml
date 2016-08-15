@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<DataProcessor uuid="b4c49c95-23d2-40ab-aa63-83d9d4547820">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ВыгрузкаНоменклатурыИЦенВФайл" category="Object">
+				<xr:TypeId>ce403003-ff73-412a-93b4-8943b99314dd</xr:TypeId>
+				<xr:ValueId>12075d98-f08f-451c-b0a8-2c64c75aa3ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ВыгрузкаНоменклатурыИЦенВФайл" category="Manager">
+				<xr:TypeId>2c82b79b-279e-4c2b-a84b-499e4dc800d2</xr:TypeId>
+				<xr:ValueId>eeccaec6-4328-469a-91e8-aac77f7e9331</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыгрузкаНоменклатурыИЦенВФайл</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="3cd83106-4a27-4aff-a222-4cdbfdfbb50e">
+				<Properties>
+					<Name>ВыгрузитьВФайл</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

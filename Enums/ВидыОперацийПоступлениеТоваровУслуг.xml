@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="a44c2cea-05d9-4e3a-970a-198b6f54f668">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоступлениеТоваровУслуг" category="Ref">
+				<xr:TypeId>df098b94-bc16-479c-a36c-e9db77fbfacb</xr:TypeId>
+				<xr:ValueId>188741a3-bf96-47f3-888c-fd27653c556c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоступлениеТоваровУслуг" category="Manager">
+				<xr:TypeId>c8c34573-abfb-48fc-8d42-bfcf6f40775a</xr:TypeId>
+				<xr:ValueId>17849c12-9395-43a2-a6c9-e715922931e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоступлениеТоваровУслуг" category="List">
+				<xr:TypeId>6bb9df3e-97e4-45f6-bc07-2a1324ecf323</xr:TypeId>
+				<xr:ValueId>0aae3127-c8df-4beb-8fb5-8bea1df8cf59</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийПоступлениеТоваровУслуг</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="02f2c087-a6e1-4515-adb1-6f6c880411c1">
+				<Properties>
+					<Name>ВПереработку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

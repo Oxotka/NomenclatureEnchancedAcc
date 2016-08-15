@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="21c7c6a2-44e4-4569-a3b3-08ebb7868038">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСуществованияКонтрагента" category="Ref">
+				<xr:TypeId>ed6ef87b-0bd1-4443-beda-470b7fa19faa</xr:TypeId>
+				<xr:ValueId>631a4095-aade-485f-a7d6-19a8bc8d6cab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСуществованияКонтрагента" category="Manager">
+				<xr:TypeId>fe5b3ace-3bfe-476f-befa-420a6449e55a</xr:TypeId>
+				<xr:ValueId>594253c4-1f55-4ecb-8015-a6a52e69695d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСуществованияКонтрагента" category="List">
+				<xr:TypeId>4474e39f-9cc5-4f95-ba86-4d7614e70075</xr:TypeId>
+				<xr:ValueId>10b85c13-201e-4de1-a1ff-d780ef99dd4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияСуществованияКонтрагента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

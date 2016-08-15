@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Корзина</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Подобрано" id="282">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные товары:</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрано</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрано товаров</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПодобраноРасширеннаяПодсказка" id="283"/>
+			<ChildItems>
+				<Table name="Корзина" id="284">
+					<Representation>List</Representation>
+					<HeightInTableRows>5</HeightInTableRows>
+					<VerticalLines>false</VerticalLines>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Корзина</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+					</CommandSet>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="КорзинаКонтекстноеМеню" id="285"/>
+					<AutoCommandBar name="КорзинаКоманднаяПанель" id="286">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="КорзинаРасширеннаяПодсказка" id="287"/>
+					<SearchStringAddition name="КорзинаСтрокаПоиска" id="288">
+						<AdditionSource>
+							<Item>Корзина</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КорзинаСтрокаПоискаКонтекстноеМеню" id="289"/>
+						<ExtendedTooltip name="КорзинаСтрокаПоискаРасширеннаяПодсказка" id="290"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="КорзинаСостояниеПросмотра" id="291">
+						<AdditionSource>
+							<Item>Корзина</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КорзинаСостояниеПросмотраКонтекстноеМеню" id="292"/>
+						<ExtendedTooltip name="КорзинаСостояниеПросмотраРасширеннаяПодсказка" id="293"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="КорзинаУправлениеПоиском" id="294">
+						<AdditionSource>
+							<Item>Корзина</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="КорзинаУправлениеПоискомКонтекстноеМеню" id="295"/>
+						<ExtendedTooltip name="КорзинаУправлениеПоискомРасширеннаяПодсказка" id="296"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnChange">КорзинаПриИзменении</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="КорзинаНоменклатура" id="917">
+							<DataPath>Корзина.Номенклатура</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номенклатура</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>15</Width>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ChoiceButton>false</ChoiceButton>
+							<OpenButton>true</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ContextMenu name="КорзинаНоменклатураКонтекстноеМеню" id="918"/>
+							<ExtendedTooltip name="КорзинаНоменклатураРасширеннаяПодсказка" id="919"/>
+						</InputField>
+						<InputField name="КорзинаКоличество" id="306">
+							<DataPath>Корзина.Количество</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>Directly</EditMode>
+							<Width>10</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ChoiceButton>false</ChoiceButton>
+							<SpinButton>true</SpinButton>
+							<ContextMenu name="КорзинаКоличествоКонтекстноеМеню" id="307"/>
+							<ExtendedTooltip name="КорзинаКоличествоРасширеннаяПодсказка" id="308"/>
+							<Events>
+								<Event name="OnChange">КорзинаЦенаКоличествоПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="КорзинаЦена" id="309">
+							<DataPath>Корзина.Цена</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>12</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="КорзинаЦенаКонтекстноеМеню" id="310"/>
+							<ExtendedTooltip name="КорзинаЦенаРасширеннаяПодсказка" id="311"/>
+							<Events>
+								<Event name="OnChange">КорзинаЦенаКоличествоПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="КорзинаЕдиницаИзмерения" id="959">
+							<DataPath>Корзина.ЕдиницаИзмерения</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ед.изм.</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>7</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="КорзинаЕдиницаИзмеренияКонтекстноеМеню" id="960"/>
+							<ExtendedTooltip name="КорзинаЕдиницаИзмеренияРасширеннаяПодсказка" id="961"/>
+						</InputField>
+						<InputField name="КорзинаСумма" id="956">
+							<DataPath>Корзина.Сумма</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КорзинаСуммаКонтекстноеМеню" id="957"/>
+							<ExtendedTooltip name="КорзинаСуммаРасширеннаяПодсказка" id="958"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНижняяПанель" id="937">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа нижняя панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа нижняя панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНижняяПанельРасширеннаяПодсказка" id="938"/>
+			<ChildItems>
+				<LabelField name="НадписьПодобраноТоваров" id="932">
+					<DataPath>НадписьПодобраноТоваров</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подобрано товаров</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показать\скрыть подобранные товары</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="НадписьПодобраноТоваровКонтекстноеМеню" id="933"/>
+					<ExtendedTooltip name="НадписьПодобраноТоваровРасширеннаяПодсказка" id="934"/>
+				</LabelField>
+				<CommandBar name="КоманднаяПанельОчистить" id="984">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель очистить</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель очистить</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedTooltip name="КоманднаяПанельОчиститьРасширеннаяПодсказка" id="985"/>
+					<ChildItems>
+						<Button name="ОчиститьКорзину" id="954">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ОчиститьКорзину</CommandName>
+							<ExtendedTooltip name="ОчиститьКорзинуРасширеннаяПодсказка" id="955"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<CommandBar name="КоманднаяПанельОформить" id="966">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель оформить</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель оформить</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>31</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedTooltip name="КоманднаяПанельОформитьРасширеннаяПодсказка" id="967"/>
+					<ChildItems>
+						<Popup name="ГруппаОформить" id="968">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Оформить</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа оформить</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаОформитьРасширеннаяПодсказка" id="969"/>
+							<ChildItems>
+								<ButtonGroup name="ПодменюПродатьКорзина" id="986">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подменю продать корзина</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ПодменюПродатьКорзинаРасширеннаяПодсказка" id="987"/>
+									<ChildItems>
+										<Button name="СоздатьСчетНаОплату" id="976">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СоздатьСчетНаОплату</CommandName>
+											<ExtendedTooltip name="СоздатьСчетНаОплатуРасширеннаяПодсказка" id="977"/>
+										</Button>
+										<Button name="СоздатьРеализацияТоваровУслуг" id="978">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СоздатьРеализацияТоваровУслуг</CommandName>
+											<ExtendedTooltip name="СоздатьРеализацияТоваровУслугРасширеннаяПодсказка" id="979"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+								<ButtonGroup name="ПодменюКупитьКорзина" id="988">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подменю купить корзина</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ПодменюКупитьКорзинаРасширеннаяПодсказка" id="989"/>
+									<ChildItems>
+										<Button name="СоздатьПоступлениеТоваровУслуг" id="982">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СоздатьПоступлениеТоваровУслуг</CommandName>
+											<ExtendedTooltip name="СоздатьПоступлениеТоваровУслугРасширеннаяПодсказка" id="983"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+							</ChildItems>
+						</Popup>
+						<Button name="ПродолжитьПодбор" id="962">
+							<Type>CommandBarButton</Type>
+							<DefaultButton>true</DefaultButton>
+							<CommandName>Form.Command.ПродолжитьПодбор</CommandName>
+							<ExtendedTooltip name="ПродолжитьПодборРасширеннаяПодсказка" id="963"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Корзина" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Корзина</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЕдиницаИзмерения" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единица измерения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Цена" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сумма" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтавкаНДС" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ставка НДС</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СуммаНДС" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма НДС</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Услуга" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Услуга</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="НадписьПодобраноТоваров" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Надпись подобрано товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПеренестиВДокумент" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборТипЦен" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор тип цен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ТипыЦенНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборСклад" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор склад</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РазрешитьЗакрытие" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешить закрытие</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьЦены" id="68">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать цены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборОрганизация" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОчиститьКорзину" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить корзину</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить корзину</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьКорзину</Action>
+		</Command>
+		<Command name="ПродолжитьПодбор" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПродолжитьПодбор</Action>
+		</Command>
+		<Command name="СоздатьСчетНаОплату" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счет покупателю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьСчетНаОплату</Action>
+		</Command>
+		<Command name="СоздатьРеализацияТоваровУслуг" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реализация (акт, накладная)</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СоздатьРеализацияТоваровУслуг</Action>
+		</Command>
+		<Command name="СоздатьПоступлениеТоваровУслуг" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление (акт, накладная)</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СоздатьПоступлениеТоваровУслуг</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>0:810bdb74-8abb-4be0-a747-46391f8a540e</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:cad46afa-5c57-4945-acc8-9f239f533dad</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:672962a0-8d25-4f68-8ddf-e200227ed12b</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:5d11bf3b-e107-4ce0-91c6-4283c8ed84df</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:69a22e49-3185-4f85-b98e-64b9721f1604</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:75666bb9-f6d3-4dd6-8220-427a81f23fc9</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:a3b3503b-212b-4275-a5f3-74f312c6e4d5</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:bfa90848-930f-433d-8f6f-c11ac2c5eba2</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:fef727fa-f63b-4467-9367-73a2425b19e3</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:33f8cd94-71e7-4703-92c3-22690fbd871a</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0:becf53b6-3fbc-4c70-822f-4a70b0434353</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

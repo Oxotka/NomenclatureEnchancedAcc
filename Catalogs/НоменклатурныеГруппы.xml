@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="33f11744-522e-45a9-9fd4-3af8663492c4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатурныеГруппы" category="Object">
+				<xr:TypeId>b0ccfed2-fc6c-43e9-a560-3ccbdd5422ed</xr:TypeId>
+				<xr:ValueId>3092cc0a-0575-48f9-9072-2622ba782822</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатурныеГруппы" category="Ref">
+				<xr:TypeId>60133791-b0b1-40b0-8ed0-24263638f71a</xr:TypeId>
+				<xr:ValueId>362db07b-0616-4e68-956a-122ec53e0859</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатурныеГруппы" category="Selection">
+				<xr:TypeId>b174b63b-ebd2-4651-abbc-9f1232ec2b75</xr:TypeId>
+				<xr:ValueId>cdefeba7-3174-43bc-99fd-08c2082c0416</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатурныеГруппы" category="List">
+				<xr:TypeId>8ab9123c-0f29-4150-b680-edb5b1fa85e8</xr:TypeId>
+				<xr:ValueId>7325bbe2-7924-4b14-bd40-0104ce1e8dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатурныеГруппы" category="Manager">
+				<xr:TypeId>f321f424-1800-4b44-8360-340ffe849608</xr:TypeId>
+				<xr:ValueId>7761aba4-6838-4662-80f8-4e6a288d7b3d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НоменклатурныеГруппы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="41a86050-54e1-48f6-853b-7a3acb3a8476">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрочиеДоходыИРасходы" category="Object">
+				<xr:TypeId>5d3a435e-3e4b-4bf9-9ce9-a0c00fe8d7bf</xr:TypeId>
+				<xr:ValueId>2eab70b5-4ddb-48db-8179-f3db09c4852c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрочиеДоходыИРасходы" category="Ref">
+				<xr:TypeId>0f93f19d-f71a-406a-a0cc-394ed1523184</xr:TypeId>
+				<xr:ValueId>697816f0-7728-45db-a0b4-427cc42dd488</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрочиеДоходыИРасходы" category="Selection">
+				<xr:TypeId>bde9d5c3-0dcb-480f-9a3b-17f323636663</xr:TypeId>
+				<xr:ValueId>076b4864-457a-44a3-a8f3-b1557ff74be3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрочиеДоходыИРасходы" category="List">
+				<xr:TypeId>e090588e-4d5c-40a8-a076-05abfb19ec69</xr:TypeId>
+				<xr:ValueId>c4278d97-f866-48ae-afcc-9ee4a8c9501a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрочиеДоходыИРасходы" category="Manager">
+				<xr:TypeId>7dce5f14-bab9-4244-9960-3039143b4c99</xr:TypeId>
+				<xr:ValueId>e34e323a-8de6-412a-8684-5036b521034f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрочиеДоходыИРасходы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

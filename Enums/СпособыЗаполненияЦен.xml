@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="473a0726-95c9-4286-9e63-2a3d5a2a20e0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыЗаполненияЦен" category="Ref">
+				<xr:TypeId>35408e5c-b9a9-4a20-98b4-e21be9f95ae5</xr:TypeId>
+				<xr:ValueId>9ca74157-7c30-4a75-abfc-2a183fd3d9d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыЗаполненияЦен" category="Manager">
+				<xr:TypeId>41e869c0-d9a9-4085-a05b-61becb46ae7c</xr:TypeId>
+				<xr:ValueId>dc55ba66-d8e9-40ae-a922-9a5237efecc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыЗаполненияЦен" category="List">
+				<xr:TypeId>95929696-8931-4780-872d-c23d4923cd96</xr:TypeId>
+				<xr:ValueId>b6d8c326-471d-4627-aea1-257cef144547</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыЗаполненияЦен</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
