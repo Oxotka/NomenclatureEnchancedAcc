@@ -553,6 +553,15 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="74db6675-b2e6-411f-8caa-516a4d783f28">
+						<Properties>
+							<Name>КиЗ_ГИСМ</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КонтрольныеЗнакиГИСМ</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="7b474d83-ff95-4a66-bd9a-0d762eb9d62a">

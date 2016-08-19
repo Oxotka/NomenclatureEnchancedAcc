@@ -19,6 +19,13 @@
 			<Name>ВидыОперацийРеализацияТоваров</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="7b3a3c56-1d0e-4c64-858b-0b8659633aa0">
+				<Properties>
+					<Name>ПродажаКомиссия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

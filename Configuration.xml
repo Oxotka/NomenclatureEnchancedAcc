@@ -69,6 +69,8 @@
 			<FunctionalOption>ОсуществляетсяРеализацияТоваровУслугКомитентов</FunctionalOption>
 			<FunctionalOption>ОсуществляетсяЗакупкаТоваровУслугДляКомитентов</FunctionalOption>
 			<FunctionalOption>ИспользоватьНесколькоОрганизацийБухгалтерскийУчет</FunctionalOption>
+			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
+			<FunctionalOption>ВестиУчетМаркируемойПродукцииГИСМБП</FunctionalOption>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonCommand>ПрисоединенныеФайлыБП</CommonCommand>
@@ -87,6 +89,7 @@
 			<Constant>ВедетсяУчетВозвратнойТары</Constant>
 			<Constant>ОсуществляетсяЗакупкаТоваровУслугДляКомитентов</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
+			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -105,6 +108,7 @@
 			<Catalog>Патенты</Catalog>
 			<Catalog>ОбъектыСтроительства</Catalog>
 			<Catalog>СтатьиЗатрат</Catalog>
+			<Catalog>КонтрольныеЗнакиГИСМ</Catalog>
 			<Document>ОтчетПроизводстваЗаСмену</Document>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
