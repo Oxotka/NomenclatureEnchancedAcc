@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="651b62aa-0740-4462-b893-1487662ee0e9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УдалитьВидыОперацийПеремещениеТоваров" category="Ref">
+				<xr:TypeId>e479f065-4d17-4ecc-8c83-127028475aa2</xr:TypeId>
+				<xr:ValueId>0f77eb15-4759-49ed-b81f-c747fe01821d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УдалитьВидыОперацийПеремещениеТоваров" category="Manager">
+				<xr:TypeId>cfa59ad8-c316-4565-b721-c8d0ca3a26b8</xr:TypeId>
+				<xr:ValueId>6e7cd9a6-8696-4e63-bbdf-45d563bdb1a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УдалитьВидыОперацийПеремещениеТоваров" category="List">
+				<xr:TypeId>736a7389-2b60-4b1b-b773-2616a924f0b9</xr:TypeId>
+				<xr:ValueId>56d1fc1f-d28c-4dfe-bc0b-a1e4494cdb55</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьВидыОперацийПеремещениеТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

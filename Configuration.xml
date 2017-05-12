@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
 	<Configuration uuid="2c3652a4-fbfe-41fb-9daf-b90eeec4b960">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -38,10 +38,10 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>ПИН_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.4</Version>
+			<Version>1.5</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -71,6 +71,9 @@
 			<FunctionalOption>ИспользоватьНесколькоОрганизацийБухгалтерскийУчет</FunctionalOption>
 			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
 			<FunctionalOption>ВестиУчетМаркируемойПродукцииГИСМБП</FunctionalOption>
+			<FunctionalOption>ВедетсяУчетРозничнойПродажиАлкогольнойПродукцииПива</FunctionalOption>
+			<FunctionalOption>РаздельныйУчетНДСДо2014Года</FunctionalOption>
+			<FunctionalOption>ИспользоватьКонтрольныеЗнакиГИСМ</FunctionalOption>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonCommand>ПрисоединенныеФайлыБП</CommonCommand>
@@ -90,6 +93,8 @@
 			<Constant>ОсуществляетсяЗакупкаТоваровУслугДляКомитентов</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
 			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
+			<Constant>ВедетсяУчетРозничнойПродажиАлкогольнойПродукцииПива</Constant>
+			<Constant>ИспользоватьКонтрольныеЗнакиГИСМ</Constant>
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -116,6 +121,9 @@
 			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>СчетФактураПолученный</Document>
 			<Document>СчетНаОплатуПоставщика</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>СписаниеТоваров</Document>
+			<Document>ИнвентаризацияТоваровНаСкладе</Document>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>СпособыЗаполненияЦен</Enum>
 			<Enum>СтатусОплатыСчета</Enum>
@@ -126,11 +134,16 @@
 			<Enum>СпособыУчетаНДС</Enum>
 			<Enum>ВидыОперацийПоступлениеТоваровУслуг</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
+			<Enum>ДействиеНДСВСтоимостиТоваров</Enum>
+			<Enum>ТипыСкладов</Enum>
+			<Enum>УдалитьВидыОперацийПеремещениеТоваров</Enum>
+			<Enum>УдалитьВидыОперацийСписаниеТоваров</Enum>
 			<DataProcessor>ЗагрузкаНоменклатурыИзФайла</DataProcessor>
 			<DataProcessor>ВыгрузкаНоменклатурыИЦенВФайл</DataProcessor>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ЦеныНоменклатурыДокументов</InformationRegister>
+			<InformationRegister>НастройкиУчетаНДС</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<AccountingRegister>Хозрасчетный</AccountingRegister>

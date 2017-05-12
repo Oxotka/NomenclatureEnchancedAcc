@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -39,9 +39,9 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnOpen">ПИН_ПриОткрытии</Event>
-		<Event name="OnLoadDataFromSettingsAtServer">ПИН_ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
-		<Event name="OnCreateAtServer">ПИН_ПриСозданииНаСервере</Event>
+		<Event name="OnOpen" callType="Before">ПИН_ПриОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer" callType="Before">ПИН_ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer" callType="Before">ПИН_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаРазделы" id="55">
@@ -388,9 +388,9 @@
 									<ContextMenu name="ДекорацияКорзинаПустаяКонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ДекорацияКорзинаПустаяРасширеннаяПодсказка" id="250"/>
 									<Events>
-										<Event name="DragCheck">ПИН_ДекорацияКорзинаПроверкаПеретаскивания</Event>
-										<Event name="Drag">ПИН_ДекорацияКорзинаПеретаскивание</Event>
-										<Event name="Click">ПИН_ДекорацияКорзинаНажатие</Event>
+										<Event name="DragCheck" callType="Before">ПИН_ДекорацияКорзинаПроверкаПеретаскивания</Event>
+										<Event name="Drag" callType="Before">ПИН_ДекорацияКорзинаПеретаскивание</Event>
+										<Event name="Click" callType="Before">ПИН_ДекорацияКорзинаНажатие</Event>
 									</Events>
 								</PictureDecoration>
 								<PictureDecoration name="ДекорацияКорзина" id="68">
@@ -416,9 +416,9 @@
 									<ContextMenu name="ДекорацияКорзинаКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ДекорацияКорзинаРасширеннаяПодсказка" id="70"/>
 									<Events>
-										<Event name="DragCheck">ПИН_ДекорацияКорзинаПроверкаПеретаскивания</Event>
-										<Event name="Drag">ПИН_ДекорацияКорзинаПеретаскивание</Event>
-										<Event name="Click">ПИН_ДекорацияКорзинаНажатие</Event>
+										<Event name="DragCheck" callType="Before">ПИН_ДекорацияКорзинаПроверкаПеретаскивания</Event>
+										<Event name="Drag" callType="Before">ПИН_ДекорацияКорзинаПеретаскивание</Event>
+										<Event name="Click" callType="Before">ПИН_ДекорацияКорзинаНажатие</Event>
 									</Events>
 								</PictureDecoration>
 								<UsualGroup name="ГруппаКорзинаОписание" id="71">
@@ -450,7 +450,7 @@
 											<ContextMenu name="НадписьПодобраноТоваровКонтекстноеМеню" id="74"/>
 											<ExtendedTooltip name="НадписьПодобраноТоваровРасширеннаяПодсказка" id="75"/>
 											<Events>
-												<Event name="Click">ПИН_НадписьПодобраноТоваровНажатие</Event>
+												<Event name="Click" callType="Before">ПИН_НадписьПодобраноТоваровНажатие</Event>
 											</Events>
 										</LabelField>
 										<UsualGroup name="ГруппаВыборВСписке" id="76">
@@ -544,6 +544,27 @@
 																		</Button>
 																	</ChildItems>
 																</ButtonGroup>
+																<ButtonGroup name="ПодменюПрочее" id="289">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Прочее</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ExtendedTooltip name="ПодменюПрочееРасширеннаяПодсказка" id="290"/>
+																	<ChildItems>
+																		<Button name="ДокументСписаниеТоваров" id="293">
+																			<Type>CommandBarButton</Type>
+																			<CommandName>Form.Command.ДокументСписаниеТоваров</CommandName>
+																			<ExtendedTooltip name="ДокументСписаниеТоваровРасширеннаяПодсказка" id="294"/>
+																		</Button>
+																		<Button name="ДокументПеремещениеТоваров" id="291">
+																			<Type>CommandBarButton</Type>
+																			<CommandName>Form.Command.ДокументПеремещениеТоваров</CommandName>
+																			<ExtendedTooltip name="ДокументПеремещениеТоваровРасширеннаяПодсказка" id="292"/>
+																		</Button>
+																	</ChildItems>
+																</ButtonGroup>
 															</ChildItems>
 														</Popup>
 													</ChildItems>
@@ -623,7 +644,7 @@
 									<ContextMenu name="ОтборОстаткиКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="ОтборОстаткиРасширеннаяПодсказка" id="111"/>
 									<Events>
-										<Event name="OnChange">ПИН_ОтборОстаткиПриИзменении</Event>
+										<Event name="OnChange" callType="Before">ПИН_ОтборОстаткиПриИзменении</Event>
 									</Events>
 								</RadioButtonField>
 								<InputField name="ОтборОрганизация" id="286">
@@ -640,8 +661,8 @@
 									<ContextMenu name="ОтборОрганизацияКонтекстноеМеню" id="287"/>
 									<ExtendedTooltip name="ОтборОрганизацияРасширеннаяПодсказка" id="288"/>
 									<Events>
-										<Event name="OnChange">ПИН_ОтборОрганизацияПриИзменении</Event>
-										<Event name="Clearing">ПИН_ОтборОрганизацияОчистка</Event>
+										<Event name="OnChange" callType="Before">ПИН_ОтборОрганизацияПриИзменении</Event>
+										<Event name="Clearing" callType="Before">ПИН_ОтборОрганизацияОчистка</Event>
 									</Events>
 								</InputField>
 								<InputField name="ОтборСклад" id="112">
@@ -670,8 +691,8 @@
 									<ContextMenu name="ОтборСкладКонтекстноеМеню" id="113"/>
 									<ExtendedTooltip name="ОтборСкладРасширеннаяПодсказка" id="114"/>
 									<Events>
-										<Event name="OnChange">ПИН_ОтборСкладПриИзменении</Event>
-										<Event name="Clearing">ПИН_ОтборСкладОчистка</Event>
+										<Event name="OnChange" callType="Before">ПИН_ОтборСкладПриИзменении</Event>
+										<Event name="Clearing" callType="Before">ПИН_ОтборСкладОчистка</Event>
 									</Events>
 								</InputField>
 								<CheckBoxField name="ПоказыватьОстатки" id="115">
@@ -687,7 +708,7 @@
 									<ContextMenu name="ПоказыватьОстаткиКонтекстноеМеню" id="116"/>
 									<ExtendedTooltip name="ПоказыватьОстаткиРасширеннаяПодсказка" id="117"/>
 									<Events>
-										<Event name="OnChange">ПИН_ПоказыватьОстаткиПриИзменении</Event>
+										<Event name="OnChange" callType="Before">ПИН_ПоказыватьОстаткиПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
 							</ChildItems>
@@ -725,7 +746,7 @@
 									<ContextMenu name="ПоказыватьЦеныКонтекстноеМеню" id="121"/>
 									<ExtendedTooltip name="ПоказыватьЦеныРасширеннаяПодсказка" id="122"/>
 									<Events>
-										<Event name="OnChange">ПИН_ПоказыватьЦеныПриИзменении</Event>
+										<Event name="OnChange" callType="Before">ПИН_ПоказыватьЦеныПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
 								<UsualGroup name="ЦеныДиапазон" id="123">
@@ -773,7 +794,7 @@
 											<ContextMenu name="ЦеныОтКонтекстноеМеню" id="126"/>
 											<ExtendedTooltip name="ЦеныОтРасширеннаяПодсказка" id="127"/>
 											<Events>
-												<Event name="OnChange">ПИН_ЦеныОтПриИзменении</Event>
+												<Event name="OnChange" callType="Before">ПИН_ЦеныОтПриИзменении</Event>
 											</Events>
 										</InputField>
 										<InputField name="ЦеныДо" id="128">
@@ -803,7 +824,7 @@
 											<ContextMenu name="ЦеныДоКонтекстноеМеню" id="129"/>
 											<ExtendedTooltip name="ЦеныДоРасширеннаяПодсказка" id="130"/>
 											<Events>
-												<Event name="OnChange">ПИН_ЦеныДоПриИзменении</Event>
+												<Event name="OnChange" callType="Before">ПИН_ЦеныДоПриИзменении</Event>
 											</Events>
 										</InputField>
 									</ChildItems>
@@ -824,8 +845,8 @@
 									<ContextMenu name="ОтборТипЦенКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ОтборТипЦенРасширеннаяПодсказка" id="133"/>
 									<Events>
-										<Event name="OnChange">ПИН_ОтборТипЦенПриИзменении</Event>
-										<Event name="Clearing">ПИН_ОтборТипЦенОчистка</Event>
+										<Event name="OnChange" callType="Before">ПИН_ОтборТипЦенПриИзменении</Event>
+										<Event name="Clearing" callType="Before">ПИН_ОтборТипЦенОчистка</Event>
 									</Events>
 								</InputField>
 							</ChildItems>
@@ -926,8 +947,8 @@
 										<ExtendedTooltip name="ИерархияНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="239"/>
 									</SearchControlAddition>
 									<Events>
-										<Event name="Selection">ПИН_ИерархияНоменклатурыВыбор</Event>
-										<Event name="OnActivateRow">ПИН_ИерархияНоменклатурыПриАктивизацииСтроки</Event>
+										<Event name="Selection" callType="Before">ПИН_ИерархияНоменклатурыВыбор</Event>
+										<Event name="OnActivateRow" callType="Before">ПИН_ИерархияНоменклатурыПриАктивизацииСтроки</Event>
 									</Events>
 									<ChildItems>
 										<LabelField name="ИерархияНоменклатурыНаименование" id="240">
@@ -953,7 +974,7 @@
 							<ContextMenu name="ДекорацияСвернутьКонтекстноеМеню" id="213"/>
 							<ExtendedTooltip name="ДекорацияСвернутьРасширеннаяПодсказка" id="214"/>
 							<Events>
-								<Event name="Click">ПИН_ДекорацияСвернутьНажатие</Event>
+								<Event name="Click" callType="Before">ПИН_ДекорацияСвернутьНажатие</Event>
 							</Events>
 						</LabelDecoration>
 					</ChildItems>
@@ -988,7 +1009,7 @@
 							<ContextMenu name="ДекорацияРазвернутьКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="ДекорацияРазвернутьРасширеннаяПодсказка" id="65"/>
 							<Events>
-								<Event name="Click">ПИН_ДекорацияРазвернутьНажатие</Event>
+								<Event name="Click" callType="Before">ПИН_ДекорацияРазвернутьНажатие</Event>
 							</Events>
 						</PictureDecoration>
 					</ChildItems>
@@ -1449,7 +1470,7 @@
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+S</Shortcut>
-			<Action>ПИН_ДокументСчетНаОплатуСоздатьИзКорзины</Action>
+			<Action callType="Before">ПИН_ДокументСчетНаОплатуСоздатьИзКорзины</Action>
 		</Command>
 		<Command name="ДокументРеализацияТоваровУслугСоздатьИзКорзины" id="4">
 			<Title>
@@ -1465,7 +1486,7 @@
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+R</Shortcut>
-			<Action>ПИН_ДокументРеализацияТоваровУслугСоздатьИзКорзины</Action>
+			<Action callType="Before">ПИН_ДокументРеализацияТоваровУслугСоздатьИзКорзины</Action>
 		</Command>
 		<Command name="ДокументПоступлениеТоваровУслугСоздатьИзКорзины" id="6">
 			<Title>
@@ -1480,7 +1501,7 @@
 					<v8:content>Документ поступление товаров услуг создать из корзины</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПИН_ДокументПоступлениеТоваровУслугСоздатьИзКорзины</Action>
+			<Action callType="Before">ПИН_ДокументПоступлениеТоваровУслугСоздатьИзКорзины</Action>
 		</Command>
 		<Command name="ДобавитьВКорзинуИзСписка" id="7">
 			<Title>
@@ -1500,10 +1521,40 @@
 				<xr:Ref>StdPicture.GotoURL</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>ПИН_ДобавитьВКорзинуИзСписка</Action>
+			<Action callType="Before">ПИН_ДобавитьВКорзинуИзСписка</Action>
+		</Command>
+		<Command name="ДокументПеремещениеТоваров" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перемещение товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ перемещение товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПИН_ДокументПеремещениеТоваровПеред</Action>
+		</Command>
+		<Command name="ДокументСписаниеТоваров" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Списание товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ списание товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПИН_ДокументСписаниеТоваровПеред</Action>
 		</Command>
 	</Commands>
-	<BaseForm version="2.1">
+	<BaseForm version="2.3">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаПоказатьКонтекстныеНовости" id="47">

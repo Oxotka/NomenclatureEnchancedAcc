@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="b572f430-9804-471d-b7f2-7a91913c0984">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнвентаризацияТоваровНаСкладе" category="Object">
+				<xr:TypeId>dff31a06-86e3-4173-8d4e-bb6adcaaa55f</xr:TypeId>
+				<xr:ValueId>fa8bd758-c8c9-4a0c-ad38-472618e5c1f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнвентаризацияТоваровНаСкладе" category="Ref">
+				<xr:TypeId>a997f8d7-fd2f-499b-ab68-b878557f6761</xr:TypeId>
+				<xr:ValueId>46d072b9-b1af-412b-b076-c8f32cd28e0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнвентаризацияТоваровНаСкладе" category="Selection">
+				<xr:TypeId>82ec44f3-4e46-44ba-848c-4cdc0517936b</xr:TypeId>
+				<xr:ValueId>60ff838f-38ae-49b4-81ef-0d89aacf2cb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнвентаризацияТоваровНаСкладе" category="List">
+				<xr:TypeId>c2aab4da-7f93-40ca-a727-23391a1ab87b</xr:TypeId>
+				<xr:ValueId>543f0fe3-2117-406b-8a0d-7368b51dbe61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнвентаризацияТоваровНаСкладе" category="Manager">
+				<xr:TypeId>5f1aad17-a0ff-48ab-ba57-7f975c419cf4</xr:TypeId>
+				<xr:ValueId>9b64f3ae-ecb7-4be9-8d00-48f033a44ad6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИнвентаризацияТоваровНаСкладе</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

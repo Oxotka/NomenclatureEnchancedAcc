@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="c65b6b9e-a2af-4af4-9a3f-de17600d6215">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиУчетаНДС" category="Record">
+				<xr:TypeId>30cdc3ea-29f7-4232-b142-43958961adad</xr:TypeId>
+				<xr:ValueId>1154626b-d966-4d2c-adb6-42f3b3dd69af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиУчетаНДС" category="Manager">
+				<xr:TypeId>98096d82-d7cb-4329-b200-6dd095781c42</xr:TypeId>
+				<xr:ValueId>aa0ac8ed-acee-4552-890e-e1e2002a0e6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиУчетаНДС" category="Selection">
+				<xr:TypeId>18aaaacd-8b44-473c-a056-15b12ed82bad</xr:TypeId>
+				<xr:ValueId>6a29c3fc-221e-415b-970c-bf929a4bd2dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиУчетаНДС" category="List">
+				<xr:TypeId>30812db0-935f-4158-ac0c-54d3559e3181</xr:TypeId>
+				<xr:ValueId>45e2c092-4ec7-4a86-b317-f584d9093bbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиУчетаНДС" category="RecordSet">
+				<xr:TypeId>1085e1c3-2c78-4901-af58-2a2f4822def0</xr:TypeId>
+				<xr:ValueId>bb3ce95c-a1ad-4fe7-a585-8b0aa63a99c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиУчетаНДС" category="RecordKey">
+				<xr:TypeId>f8a8d3fd-5580-4e97-b615-9e9bc45e0fc8</xr:TypeId>
+				<xr:ValueId>81900909-b3ae-4dac-9cc3-08fa2a736f2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиУчетаНДС" category="RecordManager">
+				<xr:TypeId>e95715cf-0270-41df-b36e-c6f917b1c629</xr:TypeId>
+				<xr:ValueId>a5ee82ec-329a-483d-b040-73beade05ddf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиУчетаНДС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4085fa3d-8367-40fc-abee-41e1a29c1e7e">
+				<Properties>
+					<Name>РаздельныйУчетНДСДо2014Года</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
