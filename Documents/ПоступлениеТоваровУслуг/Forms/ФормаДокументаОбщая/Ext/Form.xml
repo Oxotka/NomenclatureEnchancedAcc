@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoTitle>false</AutoTitle>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
@@ -2815,14 +2815,14 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
-				<Field>Объект.УдалитьУчитыватьНДС</Field>
-				<Field>Объект.УдалитьПредъявленСчетФактура</Field>
-				<Field>Объект.УдалитьНомерВходящегоСчетаФактуры</Field>
-				<Field>Объект.УдалитьНДСПредъявленКВычету</Field>
-				<Field>Объект.УдалитьКодСпособаПолучения</Field>
-				<Field>Объект.УдалитьКодВидаОперации</Field>
-				<Field>Объект.УдалитьДатаВходящегоСчетаФактуры</Field>
 				<Field>Объект.RegisterRecords</Field>
+				<Field>Объект.УдалитьДатаВходящегоСчетаФактуры</Field>
+				<Field>Объект.УдалитьКодВидаОперации</Field>
+				<Field>Объект.УдалитьКодСпособаПолучения</Field>
+				<Field>Объект.УдалитьНДСПредъявленКВычету</Field>
+				<Field>Объект.УдалитьНомерВходящегоСчетаФактуры</Field>
+				<Field>Объект.УдалитьПредъявленСчетФактура</Field>
+				<Field>Объект.УдалитьУчитыватьНДС</Field>
 			</UseAlways>
 			<Columns>
 				<AdditionalColumns table="Объект.ВозвратнаяТара">
@@ -3836,6 +3836,7 @@
 				</v8:item>
 			</Title>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодборТовары" id="2">
 			<Title>
@@ -3845,6 +3846,7 @@
 				</v8:item>
 			</Title>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодборУслуги" id="3">
 			<Title>
@@ -3854,6 +3856,7 @@
 				</v8:item>
 			</Title>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодборОборудование" id="4">
 			<Title>
@@ -3863,6 +3866,7 @@
 				</v8:item>
 			</Title>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьТовары" id="5">
 			<Title>
@@ -3878,6 +3882,7 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗарегистрироватьСчетФактуру" id="7">
 			<Title>
@@ -3886,6 +3891,7 @@
 					<v8:content>Зарегистрировать счет-фактуру</v8:content>
 				</v8:item>
 			</Title>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьПоСчету" id="8">
 			<Title>
@@ -3901,6 +3907,7 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьПоСчетуТара" id="9">
 			<Title>
@@ -3916,6 +3923,7 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьПоСчетуУслуги" id="10">
 			<Title>
@@ -3930,6 +3938,7 @@
 					<v8:content>Заполнить по счету</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьКонтекстныеНовости" id="6">
 			<Title>
@@ -3948,8 +3957,9 @@
 				<xr:Common>false</xr:Common>
 			</Use>
 			<FunctionalOptions>
-				<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+				<Item>8de8b1ea-9304-49f5-a667-c8b96c656b47</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПеренестиВАгентскиеУслуги" id="11">
 			<Title>
@@ -3969,6 +3979,7 @@
 				<Item>FunctionalOption.ОсуществляетсяРеализацияТоваровУслугКомитентов</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПеренестиВУслуги" id="12">
 			<Title>
@@ -3988,6 +3999,7 @@
 				<Item>FunctionalOption.ОсуществляетсяРеализацияТоваровУслугКомитентов</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СкопироватьСтроки" id="13">
 			<Title>
@@ -4007,6 +4019,7 @@
 				<xr:Ref>CommonPicture.СкопироватьВБуферОбмена</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВставитьСтроки" id="14">
 			<Title>
@@ -4027,6 +4040,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьКонтрагентов" id="15">
 			<Title>
@@ -4041,6 +4055,7 @@
 					<v8:content>Проверить контрагентов</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьПоШтрихкоду" id="17">
 			<Title>
@@ -4061,6 +4076,7 @@
 			</Picture>
 			<Representation>TextPicture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыгрузитьВГИСМ" id="16">
 			<Title>
@@ -4078,9 +4094,10 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.4">
+	<BaseForm version="2.6">
 		<AutoTitle>false</AutoTitle>
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
@@ -6897,14 +6914,14 @@
 				<MainAttribute>true</MainAttribute>
 				<SavedData>true</SavedData>
 				<UseAlways>
-					<Field>Объект.УдалитьУчитыватьНДС</Field>
-					<Field>Объект.УдалитьПредъявленСчетФактура</Field>
-					<Field>Объект.УдалитьНомерВходящегоСчетаФактуры</Field>
-					<Field>Объект.УдалитьНДСПредъявленКВычету</Field>
-					<Field>Объект.УдалитьКодСпособаПолучения</Field>
-					<Field>Объект.УдалитьКодВидаОперации</Field>
-					<Field>Объект.УдалитьДатаВходящегоСчетаФактуры</Field>
 					<Field>Объект.RegisterRecords</Field>
+					<Field>Объект.УдалитьДатаВходящегоСчетаФактуры</Field>
+					<Field>Объект.УдалитьКодВидаОперации</Field>
+					<Field>Объект.УдалитьКодСпособаПолучения</Field>
+					<Field>Объект.УдалитьНДСПредъявленКВычету</Field>
+					<Field>Объект.УдалитьНомерВходящегоСчетаФактуры</Field>
+					<Field>Объект.УдалитьПредъявленСчетФактура</Field>
+					<Field>Объект.УдалитьУчитыватьНДС</Field>
 				</UseAlways>
 				<Columns>
 					<AdditionalColumns table="Объект.ВозвратнаяТара">
@@ -7918,6 +7935,7 @@
 					</v8:item>
 				</Title>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПодборТовары" id="2">
 				<Title>
@@ -7927,6 +7945,7 @@
 					</v8:item>
 				</Title>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПодборУслуги" id="3">
 				<Title>
@@ -7936,6 +7955,7 @@
 					</v8:item>
 				</Title>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПодборОборудование" id="4">
 				<Title>
@@ -7945,6 +7965,7 @@
 					</v8:item>
 				</Title>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ИзменитьТовары" id="5">
 				<Title>
@@ -7960,6 +7981,7 @@
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗарегистрироватьСчетФактуру" id="7">
 				<Title>
@@ -7968,6 +7990,7 @@
 						<v8:content>Зарегистрировать счет-фактуру</v8:content>
 					</v8:item>
 				</Title>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьПоСчету" id="8">
 				<Title>
@@ -7983,6 +8006,7 @@
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьПоСчетуТара" id="9">
 				<Title>
@@ -7998,6 +8022,7 @@
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьПоСчетуУслуги" id="10">
 				<Title>
@@ -8012,6 +8037,7 @@
 						<v8:content>Заполнить по счету</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказатьКонтекстныеНовости" id="6">
 				<Title>
@@ -8030,8 +8056,9 @@
 					<xr:Common>false</xr:Common>
 				</Use>
 				<FunctionalOptions>
-					<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+					<Item>8de8b1ea-9304-49f5-a667-c8b96c656b47</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПеренестиВАгентскиеУслуги" id="11">
 				<Title>
@@ -8051,6 +8078,7 @@
 					<Item>FunctionalOption.ОсуществляетсяРеализацияТоваровУслугКомитентов</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПеренестиВУслуги" id="12">
 				<Title>
@@ -8070,6 +8098,7 @@
 					<Item>FunctionalOption.ОсуществляетсяРеализацияТоваровУслугКомитентов</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СкопироватьСтроки" id="13">
 				<Title>
@@ -8089,6 +8118,7 @@
 					<xr:Ref>CommonPicture.СкопироватьВБуферОбмена</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ВставитьСтроки" id="14">
 				<Title>
@@ -8109,6 +8139,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроверитьКонтрагентов" id="15">
 				<Title>
@@ -8123,6 +8154,7 @@
 						<v8:content>Проверить контрагентов</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ДобавитьПоШтрихкоду" id="16">
 				<Title>
@@ -8143,6 +8175,7 @@
 				</Picture>
 				<Representation>TextPicture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ВыгрузитьВГИСМ" id="17">
 				<Title>
@@ -8160,6 +8193,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 	</BaseForm>

@@ -1,41 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
+			<Button name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайла" id="51">
+				<Type>CommandBarButton</Type>
+				<CommandName>DataProcessor.ЗагрузкаНоменклатурыИзФайла.Command.ЗагрузитьИзФайла</CommandName>
+				<ExtendedTooltip name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайлаРасширеннаяПодсказка" id="52"/>
+			</Button>
+			<Button name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайл" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>DataProcessor.ВыгрузкаНоменклатурыИЦенВФайл.Command.ВыгрузитьВФайл</CommandName>
+				<ExtendedTooltip name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайлРасширеннаяПодсказка" id="50"/>
+			</Button>
 			<Button name="ФормаПоказатьКонтекстныеНовости" id="47">
 				<Type>CommandBarButton</Type>
 				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ПоказатьКонтекстныеНовости</CommandName>
 				<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="48"/>
 			</Button>
-			<Popup name="ФормаГруппаНоменклатураИЦены" id="53">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Номенклатура и цены</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Форма группа номенклатура и цены</v8:content>
-					</v8:item>
-				</ToolTip>
-				<ExtendedTooltip name="ФормаГруппаНоменклатураИЦеныРасширеннаяПодсказка" id="54"/>
-				<ChildItems>
-					<Button name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайл" id="49">
-						<Type>CommandBarButton</Type>
-						<CommandName>DataProcessor.ВыгрузкаНоменклатурыИЦенВФайл.Command.ВыгрузитьВФайл</CommandName>
-						<ExtendedTooltip name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайлРасширеннаяПодсказка" id="50"/>
-					</Button>
-					<Button name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайла" id="51">
-						<Type>CommandBarButton</Type>
-						<CommandName>DataProcessor.ЗагрузкаНоменклатурыИзФайла.Command.ЗагрузитьИзФайла</CommandName>
-						<ExtendedTooltip name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайлаРасширеннаяПодсказка" id="52"/>
-					</Button>
-				</ChildItems>
-			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -291,6 +274,18 @@
 									<Width>12</Width>
 									<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="9"/>
 									<ExtendedTooltip name="ЕдиницаИзмеренияExtendedTooltip" id="32"/>
+								</LabelField>
+								<LabelField name="ВидСтавкиНДС" id="297">
+									<DataPath>Список.ВидСтавкиНДС</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>% НДС</v8:content>
+										</v8:item>
+									</Title>
+									<Width>8</Width>
+									<ContextMenu name="ВидСтавкиНДСКонтекстноеМеню" id="300"/>
+									<ExtendedTooltip name="ВидСтавкиНДСРасширеннаяПодсказка" id="301"/>
 								</LabelField>
 								<LabelField name="НомерГТД" id="16">
 									<DataPath>Список.НомерГТД</DataPath>
@@ -891,22 +886,22 @@
 									<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 									<BorderColor>style:FormBackColor</BorderColor>
 									<CommandSet>
-										<ExcludedCommand>HierarchicalList</ExcludedCommand>
-										<ExcludedCommand>Tree</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Choose</ExcludedCommand>
 										<ExcludedCommand>Copy</ExcludedCommand>
-										<ExcludedCommand>List</ExcludedCommand>
-										<ExcludedCommand>LevelUp</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 										<ExcludedCommand>Create</ExcludedCommand>
+										<ExcludedCommand>CreateFolder</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>HierarchicalList</ExcludedCommand>
+										<ExcludedCommand>LevelDown</ExcludedCommand>
+										<ExcludedCommand>LevelUp</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
 										<ExcludedCommand>ListSettings</ExcludedCommand>
 										<ExcludedCommand>MoveItem</ExcludedCommand>
 										<ExcludedCommand>OutputList</ExcludedCommand>
-										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-										<ExcludedCommand>Choose</ExcludedCommand>
 										<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-										<ExcludedCommand>Change</ExcludedCommand>
-										<ExcludedCommand>CreateFolder</ExcludedCommand>
-										<ExcludedCommand>LevelDown</ExcludedCommand>
-										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>Tree</ExcludedCommand>
 									</CommandSet>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
@@ -1029,12 +1024,13 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Цена</Field>
-				<Field>Список.Услуга</Field>
-				<Field>Список.СтавкаНДС</Field>
-				<Field>Список.КоличествоОстаток</Field>
-				<Field>Список.Ref</Field>
 				<Field>~Список.IsFolder</Field>
+				<Field>~Список.СтавкаНДС</Field>
+				<Field>Список.Ref</Field>
+				<Field>Список.ВидСтавкиНДС</Field>
+				<Field>Список.КоличествоОстаток</Field>
+				<Field>Список.Услуга</Field>
+				<Field>Список.Цена</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1054,7 +1050,7 @@
     СправочникНоменклатура.Комментарий,
     СправочникНоменклатура.НомерГТД,
     СправочникНоменклатура.СтранаПроисхождения,
-    СправочникНоменклатура.СтавкаНДС
+    СправочникНоменклатура.ВидСтавкиНДС
 ИЗ
     Справочник.Номенклатура КАК СправочникНоменклатура
         {ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры.СрезПоследних({(&amp;ДатаОстаткиЦены)}, {(Номенклатура).* КАК Ссылка, (ТипЦен) КАК ТипЦен, (Валюта) КАК ВалютаЦены}) КАК ЦеныНоменклатурыСрезПоследних
@@ -1425,6 +1421,15 @@
 				<Item>FunctionalOption.ИспользоватьНесколькоОрганизацийБухгалтерскийУчет</Item>
 			</FunctionalOptions>
 		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ИзменитьВыделенные" id="1">
@@ -1440,6 +1445,7 @@
 					<v8:content>Изменить выделенные объекты</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьКонтекстныеНовости" id="2">
 			<Title>
@@ -1458,8 +1464,9 @@
 				<xr:Common>false</xr:Common>
 			</Use>
 			<FunctionalOptions>
-				<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+				<Item>FunctionalOption.РазрешенаРаботаСНовостями</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументСчетНаОплатуСоздатьИзКорзины" id="3">
 			<Title>
@@ -1476,6 +1483,7 @@
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+S</Shortcut>
 			<Action callType="Before">ПИН_ДокументСчетНаОплатуСоздатьИзКорзины</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументРеализацияТоваровУслугСоздатьИзКорзины" id="4">
 			<Title>
@@ -1492,6 +1500,7 @@
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+R</Shortcut>
 			<Action callType="Before">ПИН_ДокументРеализацияТоваровУслугСоздатьИзКорзины</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументПоступлениеТоваровУслугСоздатьИзКорзины" id="6">
 			<Title>
@@ -1507,6 +1516,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">ПИН_ДокументПоступлениеТоваровУслугСоздатьИзКорзины</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьВКорзинуИзСписка" id="7">
 			<Title>
@@ -1527,6 +1537,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action callType="Before">ПИН_ДобавитьВКорзинуИзСписка</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументПеремещениеТоваров" id="5">
 			<Title>
@@ -1542,6 +1553,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">ПИН_ДокументПеремещениеТоваровПеред</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументСписаниеТоваров" id="8">
 			<Title>
@@ -1557,6 +1569,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">ПИН_ДокументСписаниеТоваровПеред</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДокументТребованиеНакладная" id="9">
 			<Title>
@@ -1566,44 +1579,28 @@
 				</v8:item>
 			</Title>
 			<Action callType="After">ПИН_ДокументТребованиеНакладнаяПосле</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.4">
+	<BaseForm version="2.6">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
+				<Button name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайла" id="51">
+					<Type>CommandBarButton</Type>
+					<CommandName>DataProcessor.ЗагрузкаНоменклатурыИзФайла.Command.ЗагрузитьИзФайла</CommandName>
+					<ExtendedTooltip name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайлаРасширеннаяПодсказка" id="52"/>
+				</Button>
+				<Button name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайл" id="49">
+					<Type>CommandBarButton</Type>
+					<CommandName>DataProcessor.ВыгрузкаНоменклатурыИЦенВФайл.Command.ВыгрузитьВФайл</CommandName>
+					<ExtendedTooltip name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайлРасширеннаяПодсказка" id="50"/>
+				</Button>
 				<Button name="ФормаПоказатьКонтекстныеНовости" id="47">
 					<Type>CommandBarButton</Type>
 					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.ПоказатьКонтекстныеНовости</CommandName>
 					<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="48"/>
 				</Button>
-				<Popup name="ФормаГруппаНоменклатураИЦены" id="53">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура и цены</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Форма группа номенклатура и цены</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ФормаГруппаНоменклатураИЦеныРасширеннаяПодсказка" id="54"/>
-					<ChildItems>
-						<Button name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайл" id="49">
-							<Type>CommandBarButton</Type>
-							<CommandName>DataProcessor.ВыгрузкаНоменклатурыИЦенВФайл.Command.ВыгрузитьВФайл</CommandName>
-							<ExtendedTooltip name="ФормаОбработкаВыгрузкаНоменклатурыИЦенВФайлВыгрузитьВФайлРасширеннаяПодсказка" id="50"/>
-						</Button>
-						<Button name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайла" id="51">
-							<Type>CommandBarButton</Type>
-							<CommandName>DataProcessor.ЗагрузкаНоменклатурыИзФайла.Command.ЗагрузитьИзФайла</CommandName>
-							<ExtendedTooltip name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайлаРасширеннаяПодсказка" id="52"/>
-						</Button>
-					</ChildItems>
-				</Popup>
 			</ChildItems>
 		</AutoCommandBar>
 		<ChildItems>
@@ -1697,12 +1694,17 @@
 						<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="9"/>
 						<ExtendedTooltip name="ЕдиницаИзмеренияExtendedTooltip" id="32"/>
 					</LabelField>
-					<LabelField name="СтавкаНДС" id="10">
-						<DataPath>Список.СтавкаНДС</DataPath>
+					<LabelField name="ВидСтавкиНДС" id="53">
+						<DataPath>Список.ВидСтавкиНДС</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>% НДС</v8:content>
+							</v8:item>
+						</Title>
 						<Width>8</Width>
-						<HorizontalStretch>false</HorizontalStretch>
-						<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="11"/>
-						<ExtendedTooltip name="СтавкаНДСExtendedTooltip" id="33"/>
+						<ContextMenu name="ВидСтавкиНДСКонтекстноеМеню" id="54"/>
+						<ExtendedTooltip name="ВидСтавкиНДСРасширеннаяПодсказка" id="55"/>
 					</LabelField>
 					<LabelField name="Комментарий" id="12">
 						<DataPath>Список.Комментарий</DataPath>
@@ -1744,8 +1746,8 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.Ref</Field>
 					<Field>Список.IsFolder</Field>
+					<Field>Список.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
@@ -1778,6 +1780,15 @@
 				</Title>
 				<Type/>
 			</Attribute>
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Параметры подключаемых команд</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
 		</Attributes>
 		<Commands>
 			<Command name="ИзменитьВыделенные" id="1">
@@ -1793,6 +1804,7 @@
 						<v8:content>Изменить выделенные объекты</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказатьКонтекстныеНовости" id="2">
 				<Title>
@@ -1811,8 +1823,9 @@
 					<xr:Common>false</xr:Common>
 				</Use>
 				<FunctionalOptions>
-					<Item>FunctionalOption.Новости_РазрешенаРаботаСНовостями</Item>
+					<Item>FunctionalOption.РазрешенаРаботаСНовостями</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 	</BaseForm>

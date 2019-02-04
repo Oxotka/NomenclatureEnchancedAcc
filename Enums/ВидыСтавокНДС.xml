@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="88048221-5846-4e6f-a8a3-8c94dbccfbe5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСтавокНДС" category="Ref">
+				<xr:TypeId>13310dbf-98c9-4a8d-96b2-970a88cb8188</xr:TypeId>
+				<xr:ValueId>9c9baba6-0597-4895-b495-a1f82b7be17b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСтавокНДС" category="Manager">
+				<xr:TypeId>6a5ced02-384d-4e89-83b7-06b6a2ae82d7</xr:TypeId>
+				<xr:ValueId>180a72b1-5b90-4379-a1c5-f03605c6183c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСтавокНДС" category="List">
+				<xr:TypeId>902c0322-5e87-4fbf-bd0a-cb69b7c26c33</xr:TypeId>
+				<xr:ValueId>ecf000e5-6ca3-46ae-aa9a-761e4fe82e55</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСтавокНДС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
