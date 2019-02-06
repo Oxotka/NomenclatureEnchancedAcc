@@ -65,7 +65,7 @@
 		<Metadata name="CommonPicture.НовыйПоШтрихкоду" id="49e08fd8-529d-447f-94ff-7ad775d1219d" configVersion="cd25f1e44919d375398b98b59379b0bf63dd25e7"/>
 		<Metadata name="CommonPicture.СкопироватьВБуферОбмена" id="9ce3bdc4-16a5-48cf-9266-14cbb86b8374" configVersion="cd5ea0d6785982d178a3c35958f01ed7991d587b"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="e3cfb4ac-aea8-4600-a77b-fb4a2fadcf76" configVersion="3b3dd312a0e5f0ee79107a981d553200d1ddad19"/>
-		<Metadata name="Configuration.НоменклатураРасширенный" id="2c3652a4-fbfe-41fb-9daf-b90eeec4b960" configVersion="4b7f1c262e50af1aa25ed4a2e493264cd4920a03"/>
+		<Metadata name="Configuration.НоменклатураРасширенный" id="2c3652a4-fbfe-41fb-9daf-b90eeec4b960" configVersion="dc328eb185f0746202c62b8f5010491cfe900a9c"/>
 		<Metadata name="Constant.ВедетсяУчетВозвратнойТары" id="08290abd-86c8-4ce8-b7a3-4e6ccd38d941" configVersion="a2cebd1d736842be4dff954125426ec12adf9829"/>
 		<Metadata name="Constant.ВедетсяУчетРозничнойПродажиАлкогольнойПродукцииПива" id="9d684537-02fe-41a0-9722-88c436f103a3" configVersion="804750ec5d3f62aef39177caf1f3cbd14c07b345"/>
 		<Metadata name="Constant.ВестиУчетМаркировкиПродукцииВГИСМ" id="a0864850-d6a0-456c-b90a-eddfdf0ed3f0" configVersion="b92e72976b2451301fea338a0c9650d4ad725671"/>
@@ -313,7 +313,7 @@
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.УдалитьСчетУчетаДоходовПоТаре" id="fa86a03a-22b2-46d9-aa6c-f52fc47ff6ba"/>
 		</Metadata>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокументаОбщая" id="bc498d1c-514e-43d7-a5cb-1bd21a82c598" configVersion="85e3b0605f58d5aa81e2fc6dd5a0121415c5d1da"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокументаОбщая.Form" id="bc498d1c-514e-43d7-a5cb-1bd21a82c598.0" configVersion="0976560071c89da875e3a68da3bd56f3e72049ab"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокументаОбщая.Form" id="bc498d1c-514e-43d7-a5cb-1bd21a82c598.0" configVersion="74950c57b3fc074c3fa89fa77bca73362c78f24f"/>
 		<Metadata name="Document.СписаниеТоваров" id="5cd066ce-f771-49c8-904e-52496d8cb3c8" configVersion="1c3476d9fe2ead0ac23da0785cc947c29b44a371">
 			<Metadata name="Document.СписаниеТоваров.TabularSection.ВозвратнаяТара" id="09d74704-6a71-4b5c-a5c0-f70b30e4aaac"/>
 			<Metadata name="Document.СписаниеТоваров.Attribute.Ответственный" id="1599ecdb-991f-4c1b-883a-9b40e377aac2"/>
@@ -377,7 +377,7 @@
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.ВозвратнаяТара.Attribute.Цена" id="ffabc0ee-489f-4393-aa5d-ba64636ed324"/>
 		</Metadata>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="5907bff2-e01a-4d9d-9eb6-4f91446524b2" configVersion="798b53c35e3f12e9a6fe8c294c38c9c9e43d233e"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="5907bff2-e01a-4d9d-9eb6-4f91446524b2.0" configVersion="5da8a69e09b73594f648f0e9b4233f6fe014ce1b"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="5907bff2-e01a-4d9d-9eb6-4f91446524b2.0" configVersion="f0b1b869de265e1bfde553d374a14dc1c226d81c"/>
 		<Metadata name="Document.СчетНаОплатуПоставщика" id="907a89b5-1c62-4a78-ab34-3fb64d6fafde" configVersion="ada2c09f27046411090224f4f44605c1199a2493"/>
 		<Metadata name="Document.СчетФактураВыданный" id="0dfeff8f-2ba2-40b7-be77-97866015c3a4" configVersion="ee94f3b3cec90bbf2b9637c14351f676df2e0c37"/>
 		<Metadata name="Document.СчетФактураПолученный" id="43283265-1cf8-4f3d-bcbb-abd03ed1e6e8" configVersion="9985a72ef8f2d108b9d24f87e2b66cc27a18b305"/>
