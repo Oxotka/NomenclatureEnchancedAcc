@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Constant uuid="de49a5be-546e-43f4-aa4c-c421022968af">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ИспользоватьНесколькоСкладов" category="Manager">
@@ -10,9 +10,14 @@
 				<xr:TypeId>8da2dde7-9800-41f2-94aa-afb8edd997f5</xr:TypeId>
 				<xr:ValueId>081aa0e6-f106-4ac2-9b52-b05cb555aee2</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьНесколькоСкладов" category="ValueKey">
+				<xr:TypeId>c0e62022-5e00-59a1-9944-0d99a4855ccd</xr:TypeId>
+				<xr:ValueId>cde60a6c-8465-51eb-907a-2c08232d5652</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ИспользоватьНесколькоСкладов</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>

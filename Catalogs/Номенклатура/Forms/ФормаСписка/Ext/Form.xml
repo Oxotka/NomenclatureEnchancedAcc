@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -15,8 +15,8 @@
 			</Button>
 			<Button name="ФормаПоказатьКонтекстныеНовости" id="47">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ПоказатьКонтекстныеНовости</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="48"/>
 			</Button>
 		</ChildItems>
@@ -73,6 +73,7 @@
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
 							<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 							<AutoRefresh>false</AutoRefresh>
@@ -380,6 +381,7 @@
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<BorderColor>style:FormBackColor</BorderColor>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияКорзинаПустаяКонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ДекорацияКорзинаПустаяРасширеннаяПодсказка" id="250"/>
 									<Events>
@@ -408,6 +410,7 @@
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<BorderColor>style:FormBackColor</BorderColor>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияКорзинаКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ДекорацияКорзинаРасширеннаяПодсказка" id="70"/>
 									<Events>
@@ -882,6 +885,7 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ИерархияНоменклатуры</DataPath>
 									<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 									<BorderColor>style:FormBackColor</BorderColor>
@@ -1006,6 +1010,7 @@
 								<xr:Ref>StdPicture.GoBack</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="ДекорацияРазвернутьКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="ДекорацияРазвернутьРасширеннаяПодсказка" id="65"/>
 							<Events>
@@ -1582,7 +1587,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.9">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаОбработкаЗагрузкаНоменклатурыИзФайлаЗагрузитьИзФайла" id="51">
@@ -1597,8 +1602,8 @@
 				</Button>
 				<Button name="ФормаПоказатьКонтекстныеНовости" id="47">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.ПоказатьКонтекстныеНовости</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="48"/>
 				</Button>
 			</ChildItems>
@@ -1612,6 +1617,7 @@
 				<InitialTreeView>ExpandTopLevel</InitialTreeView>
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
 				<DataPath>Список</DataPath>
 				<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 				<AutoRefresh>false</AutoRefresh>

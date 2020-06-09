@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AccountingRegister uuid="32dd206d-772e-4b94-8054-4e8fa3afc0a0">
 		<InternalInfo>
 			<xr:GeneratedType name="AccountingRegisterRecord.Хозрасчетный" category="Record">
@@ -33,13 +33,16 @@
 		</InternalInfo>
 		<Properties>
 			<Name>Хозрасчетный</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ChartOfAccounts>ChartOfAccounts.Хозрасчетный</ChartOfAccounts>
 		</Properties>
 		<ChildObjects>
 			<Dimension uuid="dab9547c-d927-472d-8d6c-4e7c3166927f">
+				<InternalInfo/>
 				<Properties>
 					<Name>Организация</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
@@ -48,8 +51,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="a831460e-4af3-4c31-9bc1-4d4cdb1d04f7">
+				<InternalInfo/>
 				<Properties>
 					<Name>Валюта</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
@@ -58,8 +63,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="2dae2896-4cff-406c-8bd6-2aad8cae1dd5">
+				<InternalInfo/>
 				<Properties>
 					<Name>Подразделение</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
@@ -68,8 +75,10 @@
 				</Properties>
 			</Dimension>
 			<Resource uuid="6fab694a-3846-457f-8635-382bb9d28560">
+				<InternalInfo/>
 				<Properties>
 					<Name>Сумма</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -83,8 +92,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="9890631a-5b21-47d6-9674-d4035361ab0d">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВалютнаяСумма</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -98,8 +109,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="9ca47f29-e11f-4b9d-971e-ccb6e0fa963a">
+				<InternalInfo/>
 				<Properties>
 					<Name>Количество</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -113,8 +126,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="fde9dacb-d765-4265-b669-052845f54ea7">
+				<InternalInfo/>
 				<Properties>
 					<Name>СуммаНУ</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -128,8 +143,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="8bca620d-f295-4d09-ae02-cefe08ea64b5">
+				<InternalInfo/>
 				<Properties>
 					<Name>СуммаПР</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -143,8 +160,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="e9a73cd3-7dbb-46b3-b833-d5d70cac5da4">
+				<InternalInfo/>
 				<Properties>
 					<Name>СуммаВР</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>

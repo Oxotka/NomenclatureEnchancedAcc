@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Document uuid="76391093-6c29-4ff6-87bb-87044b6b8a9c">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПеремещениеТоваров" category="Object">
@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ПеремещениеТоваров</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NumberType>String</NumberType>
 			<NumberLength>11</NumberLength>
@@ -33,8 +34,10 @@
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="fe2fbcd4-76a2-4fd8-b198-9ffba06efb74">
+				<InternalInfo/>
 				<Properties>
 					<Name>СчетСписанияНДС</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -42,8 +45,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="627a66d2-9885-4b66-ad5a-a0ef8e818495">
+				<InternalInfo/>
 				<Properties>
 					<Name>УдалитьВидОперации</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.УдалитьВидыОперацийПеремещениеТоваров</v8:Type>
@@ -51,8 +56,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="29e23121-489f-419d-bda9-5fb2594039ce">
+				<InternalInfo/>
 				<Properties>
 					<Name>СкладПолучатель</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -60,8 +67,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="f2d0511c-c34d-4a7b-92aa-4ee560ca1346">
+				<InternalInfo/>
 				<Properties>
 					<Name>СубконтоСписанияНДС3</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
@@ -69,8 +78,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="89f42b30-6d98-4e79-8860-f3964b805a19">
+				<InternalInfo/>
 				<Properties>
 					<Name>ПодразделениеПолучатель</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
@@ -78,8 +89,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="0ba3ec30-0901-42d1-a5a9-f247f126bbb6">
+				<InternalInfo/>
 				<Properties>
 					<Name>СкладОтправитель</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -87,8 +100,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="13671872-ed92-4d62-beeb-74660033f9d8">
+				<InternalInfo/>
 				<Properties>
 					<Name>ПодразделениеОтправитель</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
@@ -96,8 +111,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="a101b62f-0348-4dbf-bf6c-38ef1c444312">
+				<InternalInfo/>
 				<Properties>
 					<Name>СубконтоСписанияНДС2</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
@@ -105,8 +122,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="a21e709a-50aa-48ac-86ff-ffcf926a56cd">
+				<InternalInfo/>
 				<Properties>
 					<Name>НДСвСтоимостиТоваров</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.ДействиеНДСВСтоимостиТоваров</v8:Type>
@@ -114,8 +133,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="05478e79-2afd-4161-acff-15eacd3a5dc5">
+				<InternalInfo/>
 				<Properties>
 					<Name>Ответственный</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
@@ -123,8 +144,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="6e0a7801-951c-42ce-999a-3824102c727d">
+				<InternalInfo/>
 				<Properties>
 					<Name>Комментарий</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -136,8 +159,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="f1131c0e-e71e-4dd1-8523-290a0d4200cc">
+				<InternalInfo/>
 				<Properties>
 					<Name>Организация</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
@@ -145,8 +170,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="b4568ce6-c99f-4ad8-9250-e7503229dbeb">
+				<InternalInfo/>
 				<Properties>
 					<Name>СубконтоСписанияНДС1</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоХозрасчетные</v8:TypeSet>
@@ -167,12 +194,15 @@
 				</InternalInfo>
 				<Properties>
 					<Name>ВозвратнаяТара</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="c2e7f3b4-d46b-4919-8aec-68d6d95ffecd">
+						<InternalInfo/>
 						<Properties>
 							<Name>НовыйСчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -180,8 +210,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="7f9aa418-6414-4089-ae27-2da87dabd050">
+						<InternalInfo/>
 						<Properties>
 							<Name>СчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -189,8 +221,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="ab1dfa0a-bfd9-4a53-bd61-834a73f4ff97">
+						<InternalInfo/>
 						<Properties>
 							<Name>Количество</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -203,8 +237,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="5ca73fb3-ebd3-4f8f-9f66-b9b6f9785ad1">
+						<InternalInfo/>
 						<Properties>
 							<Name>Номенклатура</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -226,12 +262,15 @@
 				</InternalInfo>
 				<Properties>
 					<Name>ТоварыНаКомиссии</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="db34c362-1545-418b-9785-71b17c356496">
+						<InternalInfo/>
 						<Properties>
 							<Name>ЕдиницаИзмерения</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
@@ -239,8 +278,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="9766b7fa-3fe5-4574-bcce-7b7757c95244">
+						<InternalInfo/>
 						<Properties>
 							<Name>НовыйСчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -248,8 +289,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d4a2853d-57e3-4052-89c9-37c920d017ab">
+						<InternalInfo/>
 						<Properties>
 							<Name>Коэффициент</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -262,8 +305,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="878a6ac1-1cdc-4890-b430-35ccd627d13d">
+						<InternalInfo/>
 						<Properties>
 							<Name>КоличествоМест</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -276,8 +321,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d8be037c-b633-49eb-94b7-6e0407f13632">
+						<InternalInfo/>
 						<Properties>
 							<Name>СчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -285,8 +332,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="64504e21-c11a-4c22-b130-dafa1111a188">
+						<InternalInfo/>
 						<Properties>
 							<Name>Номенклатура</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -294,8 +343,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="2711440e-745b-456f-9410-5e6a2b7a7e48">
+						<InternalInfo/>
 						<Properties>
 							<Name>Количество</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -322,12 +373,15 @@
 				</InternalInfo>
 				<Properties>
 					<Name>Товары</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="0b8dbd55-2b93-4ccc-9d36-c1feef491cb1">
+						<InternalInfo/>
 						<Properties>
 							<Name>СуммаВРознице</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -340,8 +394,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d0d4286d-52c9-4b64-b6bd-9a52bd9a20cb">
+						<InternalInfo/>
 						<Properties>
 							<Name>СчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -349,8 +405,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="dfa95adc-22db-49b7-9582-e6ee5553f6f5">
+						<InternalInfo/>
 						<Properties>
 							<Name>СпособУчетаНДС</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:EnumRef.СпособыУчетаНДС</v8:Type>
@@ -358,8 +416,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d4d300f4-13e5-4b29-9466-93b8cf5c5d9d">
+						<InternalInfo/>
 						<Properties>
 							<Name>НовыйСчетУчета</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
@@ -367,8 +427,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="868919af-d035-4565-8b9a-70c868027838">
+						<InternalInfo/>
 						<Properties>
 							<Name>Коэффициент</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -381,8 +443,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="a767a91e-7e02-45a8-8708-df28e74db969">
+						<InternalInfo/>
 						<Properties>
 							<Name>ДокументОприходования</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -390,8 +454,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d5632a2d-783f-4b51-b945-b361231559a1">
+						<InternalInfo/>
 						<Properties>
 							<Name>Себестоимость</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -404,8 +470,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="eacf2c92-7d45-49a9-a79d-dcb2065df697">
+						<InternalInfo/>
 						<Properties>
 							<Name>Количество</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -418,8 +486,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="4c00a90d-e0fe-46fe-b4a2-8725b85d9914">
+						<InternalInfo/>
 						<Properties>
 							<Name>СтавкаНДСВРознице</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
@@ -427,8 +497,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="ce6f6455-80ed-4ab4-887b-4491caa97de7">
+						<InternalInfo/>
 						<Properties>
 							<Name>КоличествоМест</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -441,8 +513,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="e6b781eb-9f13-4696-a5cd-e7af9379693c">
+						<InternalInfo/>
 						<Properties>
 							<Name>ЕдиницаИзмерения</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
@@ -450,8 +524,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="8d278f64-12c4-47a6-907a-953ea79488e8">
+						<InternalInfo/>
 						<Properties>
 							<Name>Номенклатура</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -459,8 +535,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="0abfe1c5-7092-4d6e-89d1-65673fe0febe">
+						<InternalInfo/>
 						<Properties>
 							<Name>ЦенаВРознице</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>

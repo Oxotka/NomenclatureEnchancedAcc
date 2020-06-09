@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Constant uuid="a0864850-d6a0-456c-b90a-eddfdf0ed3f0">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ВестиУчетМаркировкиПродукцииВГИСМ" category="Manager">
@@ -10,9 +10,14 @@
 				<xr:TypeId>0e17ad1d-1eb0-4bd4-a07f-f4d76d05b063</xr:TypeId>
 				<xr:ValueId>f685ba61-4362-4f35-a3ff-bdb09a472077</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ВестиУчетМаркировкиПродукцииВГИСМ" category="ValueKey">
+				<xr:TypeId>24bfef53-86db-55ea-834e-8c444658e46b</xr:TypeId>
+				<xr:ValueId>31094b45-15d3-5d51-9093-58ea10117bb9</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ВестиУчетМаркировкиПродукцииВГИСМ</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>

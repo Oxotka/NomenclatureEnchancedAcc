@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<InformationRegister uuid="3caf4e42-5c82-4472-b77c-db022269024c">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ЦеныНоменклатурыДокументов" category="Record">
@@ -33,14 +33,17 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ЦеныНоменклатурыДокументов</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="fba4f3c8-3581-49fa-b4fc-e13a7e9feeea">
+				<InternalInfo/>
 				<Properties>
 					<Name>Цена</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -53,8 +56,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="771629ce-da13-4413-9208-48cba60f3bf1">
+				<InternalInfo/>
 				<Properties>
 					<Name>Валюта</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
@@ -62,8 +67,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="fd3e5c65-7b9f-4b89-9c00-7a68693da501">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЦенаВключаетНДС</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -71,8 +78,10 @@
 				</Properties>
 			</Resource>
 			<Dimension uuid="fe922e9b-6372-4bef-a6ff-c8b939f38a74">
+				<InternalInfo/>
 				<Properties>
 					<Name>Номенклатура</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -80,8 +89,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="cf259f63-a0ef-400c-991b-0fe059e5d963">
+				<InternalInfo/>
 				<Properties>
 					<Name>СпособЗаполненияЦены</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.СпособыЗаполненияЦен</v8:Type>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<ChartOfAccounts uuid="b8b7641d-edff-4f4b-8fdf-56060e6068dd">
 		<InternalInfo>
 			<xr:GeneratedType name="ChartOfAccountsObject.Хозрасчетный" category="Object">
@@ -33,14 +33,17 @@
 		</InternalInfo>
 		<Properties>
 			<Name>Хозрасчетный</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</ExtDimensionTypes>
 			<MaxExtDimensionCount>3</MaxExtDimensionCount>
 		</Properties>
 		<ChildObjects>
 			<AccountingFlag uuid="193a5aa1-cd39-496e-9a37-cde4ba4f9857">
+				<InternalInfo/>
 				<Properties>
 					<Name>Количественный</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -48,8 +51,10 @@
 				</Properties>
 			</AccountingFlag>
 			<AccountingFlag uuid="bdd2081e-fee1-4374-865d-314621312960">
+				<InternalInfo/>
 				<Properties>
 					<Name>Валютный</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -57,8 +62,10 @@
 				</Properties>
 			</AccountingFlag>
 			<AccountingFlag uuid="684cafbe-b41f-4892-b22f-24f8271061c1">
+				<InternalInfo/>
 				<Properties>
 					<Name>УчетПоПодразделениям</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -66,8 +73,10 @@
 				</Properties>
 			</AccountingFlag>
 			<AccountingFlag uuid="7b1a977c-9a53-4138-9a07-ae8091abc7c3">
+				<InternalInfo/>
 				<Properties>
 					<Name>НалоговыйУчет</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -75,8 +84,10 @@
 				</Properties>
 			</AccountingFlag>
 			<ExtDimensionAccountingFlag uuid="1713dd53-c1b8-4259-9438-a3a3efcd425f">
+				<InternalInfo/>
 				<Properties>
 					<Name>Суммовой</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -84,8 +95,10 @@
 				</Properties>
 			</ExtDimensionAccountingFlag>
 			<ExtDimensionAccountingFlag uuid="875485d5-840d-49e6-8ff7-aeff925365d9">
+				<InternalInfo/>
 				<Properties>
 					<Name>Валютный</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -93,8 +106,10 @@
 				</Properties>
 			</ExtDimensionAccountingFlag>
 			<ExtDimensionAccountingFlag uuid="01946796-d03d-4704-a564-0971415105d3">
+				<InternalInfo/>
 				<Properties>
 					<Name>Количественный</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>

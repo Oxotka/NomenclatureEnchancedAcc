@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -87,7 +87,7 @@
 						<ChildItems>
 							<Button name="ОбщаяКомандаСтруктураПодчиненности" id="361">
 								<Type>CommandBarButton</Type>
-								<CommandName>CommonCommand.СтруктураПодчиненности</CommandName>
+								<CommandName>0:c4e5cfa8-4e2d-461d-9735-10f4a01563cc</CommandName>
 								<DataPath>Объект.Ref</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="362"/>
 							</Button>
@@ -123,8 +123,8 @@
 			</ButtonGroup>
 			<Button name="ФормаСправка" id="365">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>true</OnlyInAllActions>
 				<CommandName>Form.StandardCommand.Help</CommandName>
+				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="366"/>
 			</Button>
 		</ChildItems>
@@ -223,6 +223,7 @@
 									<Border width="1">
 										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
 									</Border>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="СостояниеДокументаКонтекстноеМеню" id="380">
 										<Autofill>false</Autofill>
 									</ContextMenu>
@@ -315,6 +316,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
@@ -627,6 +629,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.ВозвратнаяТара</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
@@ -1180,7 +1183,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.9">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -1268,7 +1271,7 @@
 							<ChildItems>
 								<Button name="ОбщаяКомандаСтруктураПодчиненности" id="361">
 									<Type>CommandBarButton</Type>
-									<CommandName>CommonCommand.СтруктураПодчиненности</CommandName>
+									<CommandName>0:c4e5cfa8-4e2d-461d-9735-10f4a01563cc</CommandName>
 									<DataPath>Объект.Ref</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСтруктураПодчиненностиРасширеннаяПодсказка" id="362"/>
 								</Button>
@@ -1304,8 +1307,8 @@
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="365">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>true</OnlyInAllActions>
 					<CommandName>Form.StandardCommand.Help</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="366"/>
 				</Button>
 			</ChildItems>
@@ -1401,6 +1404,7 @@
 										<Border width="1">
 											<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
 										</Border>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="СостояниеДокументаКонтекстноеМеню" id="380">
 											<Autofill>false</Autofill>
 										</ContextMenu>
@@ -1493,6 +1497,7 @@
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
 								<SearchStringLocation>None</SearchStringLocation>
 								<ViewStatusLocation>None</ViewStatusLocation>
@@ -1805,6 +1810,7 @@
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.ВозвратнаяТара</DataPath>
 								<SearchStringLocation>None</SearchStringLocation>
 								<ViewStatusLocation>None</ViewStatusLocation>
