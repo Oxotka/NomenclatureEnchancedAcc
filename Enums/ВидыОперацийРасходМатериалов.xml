@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="816bd488-5a9b-4bed-bbe7-e281a4bb6700">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийРасходМатериалов" category="Ref">
+				<xr:TypeId>c1ade9dd-6415-4295-abed-059d1a097c23</xr:TypeId>
+				<xr:ValueId>8894faae-5bdd-4abe-b067-cbf265a1eff6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийРасходМатериалов" category="Manager">
+				<xr:TypeId>3f1d17fe-4590-4062-b3f8-64c19451ff9b</xr:TypeId>
+				<xr:ValueId>90e15325-1d4f-44e1-9f3a-b8c9c4f7eb81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийРасходМатериалов" category="List">
+				<xr:TypeId>96ca75ae-e4a2-4785-b1a0-8a899a08f959</xr:TypeId>
+				<xr:ValueId>3ee211b5-5ff3-4fb9-bd54-19f47b69d24c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийРасходМатериалов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bb452734-2c20-45a3-8eff-f3673255637c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

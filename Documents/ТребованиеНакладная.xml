@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Document uuid="7704e71f-8530-4efa-9b88-980e01a41e2d">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ТребованиеНакладная" category="Object">
@@ -248,6 +248,54 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f45f6cd6-fb6b-4ef0-9bf8-7ffcc17533ac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0e43bcee-a876-4db1-a67b-58a975cbc85f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыОперацийРасходМатериалов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="86832525-21a2-4ce7-9e9e-2bb266737d07">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7f7746b7-d337-4fee-8f04-87a75b1321f9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9eff2b36-fad2-436c-aea8-eb4a7966bbab">
+				<InternalInfo/>
+				<Properties>
+					<Name>СпособУчетаМатериаловПоСотруднику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>357be20b-a473-45b5-83ec-49e55778fda2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыУчетаМатериаловПоСотрудникам</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2878bad1-742c-4c75-a22e-d0e5ac483319">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЦельРасхода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8b7ed061-3b6c-4f69-b4f0-9bc3e0be512b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЦелиРасходаМатериалов</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -573,6 +621,18 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:EnumRef.ОтражениеВУСН</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ff3273e4-33ee-4bda-b220-a7e6b1560090">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПрослеживаемыйТовар</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>3dc26d39-47f5-4b05-b363-c9b30c69b399</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
 							</Type>
 						</Properties>
 					</Attribute>

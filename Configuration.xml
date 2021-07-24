@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Configuration uuid="2c3652a4-fbfe-41fb-9daf-b90eeec4b960">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -26,6 +26,10 @@
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
 				<xr:ObjectId>74c1f926-4be0-44cc-b475-6f658115f344</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+				<xr:ObjectId>6a35db5a-7e77-44d8-9d07-6b121fd99c37</xr:ObjectId>
+			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
 			<Name>НоменклатураРасширенный</Name>
@@ -43,7 +47,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.9</Version>
+			<Version>1.10</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -57,12 +61,17 @@
 			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>РамкаСеткиТаблицы</StyleItem>
+			<StyleItem>ЦветГиперссылки</StyleItem>
+			<StyleItem>ЗаголовкиСтрокЦветТекста</StyleItem>
+			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<CommonPicture>СкопироватьВБуферОбмена</CommonPicture>
 			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ВставитьИзБуфераОбмена</CommonPicture>
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
+			<CommonPicture>ПрослеживаемыйТовар</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
 			<FunctionalOption>ИспользоватьНесколькоСкладовБухгалтерскийУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьТипыЦенНоменклатуры</FunctionalOption>
 			<FunctionalOption>ВестиУчетПоДоговорам</FunctionalOption>
@@ -115,6 +124,8 @@
 			<Catalog>ОбъектыСтроительства</Catalog>
 			<Catalog>СтатьиЗатрат</Catalog>
 			<Catalog>КонтрольныеЗнакиГИСМ</Catalog>
+			<Catalog>ЦелиРасходаМатериалов</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Document>ОтчетПроизводстваЗаСмену</Document>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>РеализацияТоваровУслуг</Document>
@@ -131,7 +142,6 @@
 			<Enum>СтатусОплатыСчета</Enum>
 			<Enum>ВидыОперацийРеализацияТоваров</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
-			<Enum>ВидыЭД</Enum>
 			<Enum>ОтражениеВУСН</Enum>
 			<Enum>СпособыУчетаНДС</Enum>
 			<Enum>ВидыОперацийПоступлениеТоваровУслуг</Enum>
@@ -141,6 +151,8 @@
 			<Enum>УдалитьВидыОперацийПеремещениеТоваров</Enum>
 			<Enum>УдалитьВидыОперацийСписаниеТоваров</Enum>
 			<Enum>ВидыСтавокНДС</Enum>
+			<Enum>СпособыУчетаМатериаловПоСотрудникам</Enum>
+			<Enum>ВидыОперацийРасходМатериалов</Enum>
 			<DataProcessor>ЗагрузкаНоменклатурыИзФайла</DataProcessor>
 			<DataProcessor>ВыгрузкаНоменклатурыИЦенВФайл</DataProcessor>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
